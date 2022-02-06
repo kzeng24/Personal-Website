@@ -876,6 +876,10 @@ nav:hover a {
 }
 
 @media only screen and (max-width: 750px) {
+    .title {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
     .btn {
         font-size: 16px;
         padding: 5px 5px;

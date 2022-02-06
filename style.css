@@ -852,10 +852,11 @@ nav:hover a {
         }
         .overlay {
             position: relative;
+            
         }
         .overlay2 {
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 90px;
         }
         .resumeProp {
             width: 360px;

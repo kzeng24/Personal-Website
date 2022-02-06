@@ -386,10 +386,6 @@ nav:hover a {
 
 
 /*mastermind*/
-/*.bg-modal-master :not(.modal-content-master),
-.bg-modal-flood :not(.modal-content-flood),
-.bg-modal-image :not(.modal-content-image),
-.bg-modal-card :not(.modal-content-card)*/
 .bg-modal-master,
 .bg-modal-flood,
 .bg-modal-image,
@@ -823,6 +819,12 @@ nav:hover a {
     }
 
     @media only screen and (max-width: 750px) {
+        .title h1 {
+            font-size: 100px;
+        }
+        .title-img img {
+            width: 40%;
+        }
         .btn {
             font-size: 16px;
             padding: 5px 5px;
@@ -857,6 +859,22 @@ nav:hover a {
         .overlay2 {
             width: 90px;
             height: 90px;
+        }
+        .mainImg img {
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .mainImg-c img {
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .extraImg img {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
         }
         .resumeProp {
             width: 360px;

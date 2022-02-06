@@ -824,7 +824,7 @@ nav:hover a {
 
     @media only screen and (max-width: 750px) {
         .btn {
-            font-size: 20px;
+            font-size: 16px;
             padding: 5px 5px;
         }
         #learn-more{
@@ -847,8 +847,11 @@ nav:hover a {
             flex-wrap: wrap;
         }
         .item img {
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 90px;
+        }
+        .overlay {
+            position: relative;
         }
         .overlay2 {
             width: 100px;

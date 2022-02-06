@@ -832,6 +832,7 @@ nav:hover a {
         }
         .learn-row {
             padding: 5px;
+            flex-wrap: wrap;
         }
         .languages img {
             width: 30px;
@@ -841,6 +842,7 @@ nav:hover a {
             width: 100px;
             height: 100px;
             display: flex;
+            flex-wrap: wrap;
         }
         .overlay2 {
             width: 100px;
@@ -851,8 +853,8 @@ nav:hover a {
             height: 600px;
         }
         .mySlides img {
-            width: 380px;
-            height: 240px;
+            width: 300px;
+            height: 200px;
             padding: 10px;
         }
     }

@@ -57,6 +57,15 @@ function closeCard() {
     document.querySelector('.bg-modal-card').style.display = 'none';
 }
 
+/* Predator-Prey */
+function displayBugs() {
+    document.querySelector('.bg-modal-bug').style.display = 'flex';
+}
+
+function closeBugs() {
+    document.querySelector('.bg-modal-bug').style.display = 'none';
+}
+
 /*GALLERY*/
 
 var slideIndex = 0;

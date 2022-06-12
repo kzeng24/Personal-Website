@@ -386,9 +386,6 @@ nav:hover a {
 
 /*--modal--*/
 
-
-/*mastermind*/
-
 .bg-modal-master,
 .bg-modal-flood,
 .bg-modal-image,
@@ -643,7 +640,8 @@ nav:hover a {
     div.modal-content-master,
     div.modal-content-flood,
     div.modal-content-image,
-    div.modal-content-card {
+    div.modal-content-card,
+    div.modal-content-bug {
         overflow-y: auto;
         max-height: calc(100vh - 125px);
     }
@@ -731,7 +729,8 @@ nav:hover a {
     .modal-content-master,
     .modal-content-flood,
     .modal-content-image,
-    .modal-content-card {
+    .modal-content-card,
+    .modal-content-bug {
         width: 60%;
     }
 }
@@ -754,7 +753,8 @@ nav:hover a {
     .modal-content-master,
     .modal-content-flood,
     .modal-content-image,
-    .modal-content-card {
+    .modal-content-card,
+    .modal-content-bug {
         width: 80%;
     }
 }
@@ -851,7 +851,8 @@ nav:hover a {
     div.modal-content-master,
     div.modal-content-flood,
     div.modal-content-image,
-    div.modal-content-card {
+    div.modal-content-card,
+    div.modal-content-bug {
         overflow-y: auto;
         max-height: calc(100vh - 125px);
     }

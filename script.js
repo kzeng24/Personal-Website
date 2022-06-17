@@ -66,6 +66,15 @@ function closeBugs() {
     document.querySelector('.bg-modal-bug').style.display = 'none';
 }
 
+/* Messaging App */
+function displayChat() {
+    document.querySelector('.bg-modal-chat').style.display = 'flex';
+}
+
+function closeChat() {
+    document.querySelector('.bg-modal-chat').style.display = 'none';
+}
+
 /*GALLERY*/
 
 var slideIndex = 0;

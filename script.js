@@ -75,6 +75,15 @@ function closeChat() {
     document.querySelector('.bg-modal-chat').style.display = 'none';
 }
 
+/* Pet App */
+function displayPet() {
+    document.querySelector('.bg-modal-pet').style.display = 'flex';
+}
+
+function closePet() {
+    document.querySelector('.bg-modal-pet').style.display = 'none';
+}
+
 /*GALLERY*/
 
 var slideIndex = 0;

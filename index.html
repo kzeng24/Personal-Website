@@ -53,9 +53,9 @@
             <div class="line">
                 <span class="line-2"></span>
             </div>
-            <p>Hello! I am a junior pursuing Computer Science and Business Administration at Northeastern University. After taking my favorite class Web Design and joining Technovation, an entrepreneurial app-creating competition, in high school, I've
-                developed an interest in the world of business and technology. In my free time, I also like to dance, play badminton, paint, and take photos. Eventually, I see myself becoming a software developer and striving to better our world, from
-                screen to reality.
+            <p>Hello! I am a junior pursuing Computer Science and Business Administration at Northeastern University. After taking my favorite class Web Design and joining Technovation, an entrepreneurial app-creating competition, in high school, I've developed
+                an interest in the world of business and technology. In my free time, I also like to dance, play badminton, paint, and take photos. Eventually, I see myself becoming a software developer and striving to better our world, from screen to
+                reality.
             </p>
             <div class="social-icons">
                 <div class="icons">
@@ -99,8 +99,8 @@
             <div class="learn-col">
                 <a href="#gallery" class="btn">Gallery</a>
             </div>
-
         </div>
+
     </section>
 
     <!--skills-->
@@ -246,6 +246,10 @@
                 <img src="images/chat.png">
                 <div class="overlay2">Messaging App</div>
             </div>
+            <div class="item" onclick="displayPet()">
+                <img src="images/welcomePet.png">
+                <div class="overlay2">Productivity App</div>
+            </div>
         </div>
         <div>
             <p>To see more</p>
@@ -339,7 +343,8 @@
                 <div class="closeChat" onclick="closeChat()">+</div>
                 <h2>Messaging App</h2>
                 <p>
-                    This is an android application (coded in Java using Android Studio) that enables users to create an account/login, take photos/retrieve from a gallery, chat with other existing users, and edit their profiles. Once an account is made, the user and chat information will be stored and authenticated in a cloud database (Firebase) that will be constantly updated.
+                    This is an android application (coded in Java using Android Studio) that enables users to create an account/login, take photos/retrieve from a gallery, chat with other existing users, and edit their profiles. Once an account is made, the user and chat
+                    information will be stored and authenticated in a cloud database (Firebase) that will be constantly updated.
                 </p>
                 <div class="mainImg">
                     <img src="images/friends.png">
@@ -348,6 +353,28 @@
                     <img src="images/welcome.png">
                     <img src="images/camera.png">
                     <img src="images/chat.png">
+                </div>
+            </div>
+        </div>
+        <!--productivity app-->
+        <div class="bg-modal-pet">
+            <div class="modal-content-pet">
+                <div class="closePet" onclick="closePet()">+</div>
+                <h2>Productivity App</h2>
+                <p>
+                    This is an android application that encourages a logged-in user to study by letting them earn points after completing timed study sessions or lose points if their study sessions are interrupted. The program also keeps track of successful consecutive study
+                    sessions and the pet's mood which can lead to bonus points.
+                </p>
+                <!-- <div class="mainImg">
+                    <img src="images/welcomePet.png">
+                </div> -->
+                <div class="extraSmallImg">
+                    <img src="images/welcomePet.png">
+                    <img src="images/choosePet.png">
+                    <img src="images/successPet.png">
+                    <img src="images/rewardPet.png">
+                    <img src="images/failPet.png">
+                    <img src="images/feedPet.png">
                 </div>
             </div>
         </div>

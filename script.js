@@ -84,6 +84,15 @@ function closePet() {
     document.querySelector('.bg-modal-pet').style.display = 'none';
 }
 
+/* BGP Router */
+function displayRouter() {
+    document.querySelector('.bg-modal-router').style.display = 'flex';
+}
+
+function closeRouter() {
+    document.querySelector('.bg-modal-router').style.display = 'none';
+}
+
 /*GALLERY*/
 
 var slideIndex = 0;
@@ -115,3 +124,17 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+var counterContainer = document.querySelector(".website-counter");
+var visitCount = localStorage.getItem("page_view");
+
+// Check if page_view entry is present
+if (visitCount) {
+    visitCount = Number(visitCount) + 1;
+    localStorage.setItem("page_view", visitCount);
+} else {
+    visitCount = 1;
+    localStorage.setItem("page_view", 1);
+}
+counterContainer.innerHTML = visitCount;
+counterContainer.innerHTML = visitCount;

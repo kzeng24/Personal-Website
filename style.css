@@ -294,6 +294,10 @@ nav:hover a {
     width: 82px;
 }
 
+.docker img {
+    width: 95px;
+}
+
 .language {
     margin: 10px 12px;
     padding: 5px;
@@ -392,7 +396,8 @@ nav:hover a {
 .bg-modal-card,
 .bg-modal-bug,
 .bg-modal-chat,
-.bg-modal-pet {
+.bg-modal-pet,
+.bg-modal-router {
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0, 0.7);
@@ -410,7 +415,8 @@ nav:hover a {
 .modal-content-card,
 .modal-content-bug,
 .modal-content-chat,
-.modal-content-pet {
+.modal-content-pet,
+.modal-content-router {
     width: 40%;
     height: auto;
     background-color: white;
@@ -427,7 +433,8 @@ nav:hover a {
 .modal-content-card h2,
 .modal-content-bug h2,
 .modal-content-chat h2,
-.modal-content-pet h2 {
+.modal-content-pet h2,
+.modal-content-router h2 {
     padding-bottom: 40px;
 }
 
@@ -437,7 +444,8 @@ nav:hover a {
 .modal-content-card p,
 .modal-content-bug p,
 .modal-content-chat p,
-.modal-content-pet p {
+.modal-content-pet p,
+.modal-content-router p {
     font-size: 20px;
     line-height: 1.6;
     padding-bottom: 40px;
@@ -449,7 +457,8 @@ nav:hover a {
 .closeCard,
 .closeBugs,
 .closeChat,
-.closePet {
+.closePet,
+.closeRouter {
     position: absolute;
     top: 0;
     right: 14px;
@@ -464,7 +473,8 @@ nav:hover a {
 .closeCard:hover,
 .closeBugs:hover,
 .closeChat:hover,
-.closePet:hover {
+.closePet:hover,
+.closeRouter:hover {
     color: rgb(250, 206, 237);
 }
 
@@ -636,6 +646,28 @@ nav:hover a {
 }
 
 
+/* website counter */
+
+#counter {
+    background-color: #F2DAD7;
+    justify-content: center;
+}
+
+.website-counter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff4957;
+    height: 50px;
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
 /* smaller screens */
 
 @media only screen and (max-height: 700px) {
@@ -660,7 +692,8 @@ nav:hover a {
     div.modal-content-card,
     div.modal-content-bug,
     div.modal-content-chat,
-    div.modal-content-pet {
+    div.modal-content-pet,
+    div.modal-content-router {
         overflow-y: auto;
         max-height: calc(100vh - 125px);
     }
@@ -751,7 +784,8 @@ nav:hover a {
     .modal-content-card,
     .modal-content-bug,
     .modal-content-chat,
-    .modal-content-pet {
+    .modal-content-pet,
+    .model-content-router {
         width: 60%;
     }
 }
@@ -777,7 +811,8 @@ nav:hover a {
     .modal-content-card,
     .modal-content-bug,
     .modal-content-chat,
-    .modal-content-pet {
+    .modal-content-pet,
+    .modal-content-router {
         width: 80%;
     }
 }
@@ -877,7 +912,8 @@ nav:hover a {
     div.modal-content-card,
     div.modal-content-bug,
     div.modal-content-chat,
-    div.modal-content-pet {
+    div.modal-content-pet,
+    div.modal-content-router {
         overflow-y: auto;
         max-height: calc(100vh - 125px);
     }

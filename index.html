@@ -26,21 +26,21 @@
             <h2>Welcome to my Portfolio!</h2>
         </div>
         <div class="welcome-button">
-            <a href="#about" class="special-btn">Enter Portfolio</a>
+            <a href="#about" class="special-btn">Explore</a>
         </div>
         <!--< </div>-->
     </section>
 
     <nav id="sideNav">
         <ul>
-            <li><a href="#header">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#experience">EXPERIENCE</a></li>
-            <li><a href="#awards">AWARDS</a></li>
-            <li><a href="#resume">RESUME</a></li>
-            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#gallery">Gallery</a></li>
         </ul>
     </nav>
     <img src="images/menu.png" id="menuBtn">
@@ -173,9 +173,9 @@
                 <img src="images/androidstudio.png">
                 <div class="overlay">Android Studio</div>
             </div>
-            <div class="language linux">
-                <img src="images/linux.png">
-                <div class="overlay">Linux</div>
+            <div class="language node">
+                <img src="images/node.png">
+                <div class="overlay">Node.js</div>
             </div>
             <div class="language git">
                 <img src="images/git.png">
@@ -199,6 +199,22 @@
                 <img src="images/firestore.png">
                 <div class="overlay">Firebase</div>
             </div>
+            <div class="language docker">
+                <img src="images/docker.png">
+                <div class="overlay">Docker</div>
+            </div>
+            <div class="language linux">
+                <img src="images/linux.png">
+                <div class="overlay">Linux</div>
+            </div>
+            <div class="language latex">
+                <img src="images/latex.png">
+                <div class="overlay">LaTeX</div>
+            </div>
+            <div class="language jupyter">
+                <img src="images/jupyter.png">
+                <div class="overlay">Jupyter Notebook</div>
+            </div>
             <div class="language sqlserver">
                 <img src="images/sqlServer.png">
                 <div class="overlay">Microsoft SQL Server</div>
@@ -207,24 +223,20 @@
                 <img src="images/araxismerge.png">
                 <div class="overlay">Araxis Merge</div>
             </div>
-            <div class="language jupyter">
-                <img src="images/jupyter.png">
-                <div class="overlay">Jupyter Notebook</div>
-            </div>
-            <div class="language latex">
-                <img src="images/latex.png">
-                <div class="overlay">LaTeX</div>
-            </div>
-            <div class="language docker">
-                <img src="images/docker.png">
-                <div class="overlay">Docker</div>
-            </div>
         </div>
         <p class="skill-tools">Frameworks/Libraries</p>
         <div class="languages">
+            <div class="language reactNative">
+                <img src="images/reactNative.png">
+                <div class="overlay">React</div>
+            </div>
             <div class="language springboot">
                 <img src="images/springboot.png">
                 <div class="overlay">Java Spring Boot</div>
+            </div>
+            <div class="language bootstrap">
+                <img src="images/bootstrap.png">
+                <div class="overlay">Bootstrap</div>
             </div>
             <div class="language angular">
                 <img src="images/angular.png">
@@ -237,10 +249,6 @@
             <div class="language kendo">
                 <img src="images/kendo.png">
                 <div class="overlay">Kendo UI</div>
-            </div>
-            <div class="language reactNative">
-                <img src="images/reactNative.png">
-                <div class="overlay">React Native</div>
             </div>
         </div>
     </section>
@@ -290,6 +298,17 @@
                 <img src="images/router.png">
                 <div class="overlay2">BGP Router</div>
             </div>
+        </div>
+        <div class="projectGrid">
+            <div class="item" onclick="displayMyAtlas()">
+                <img src="images/myatlas1.png">
+                <div class="overlay2">My Atlas</div>
+            </div>
+            <div class="item" onclick="displayMovie()">
+                <img src="images/movie1.png">
+                <div class="overlay2">CineScope</div>
+            </div>
+
         </div>
         <div>
             <p>To see more</p>
@@ -428,6 +447,48 @@
                 </p>
                 <div class="mainImg">
                     <img src="images/router.png">
+                </div>
+            </div>
+        </div>
+        <!--my atlas-->
+        <div class="bg-modal-myAtlas">
+            <div class="modal-content-myAtlas">
+                <div class="closeMyAtlas" onclick="closeMyAtlas()">+</div>
+                <h2>My Atlas</h2>
+                <p>
+                    Collaborated with designers and developers in
+                    <a href="https://generatenu.com/">Generate Product Development</a> to create mental health app that gathers daily user data (heartbeat, steps, etc) in hopes of providing support. Used TypeScript, Express.js, React Native, and MongoDB
+                    database. </p>
+                <div class="extraImg">
+                    <img src="images/myatlas1.png">
+                    <!-- <img src="images/myatlas2.png"> -->
+                    <img src="images/myatlas3.png">
+                    <img src="images/myatlas4.png">
+                </div>
+            </div>
+        </div>
+        <!--cinescope-->
+        <div class="bg-modal-movie">
+            <div class="modal-content-movie">
+                <div class="closeMovie" onclick="closeMovie()">+</div>
+                <h2>CineScope</h2>
+                <p>
+                    Collaborated with group of 3 members to deploy movie finder web application using React, Bootstrap, Redux, Node.js, Express.js, REST APIs, and MongoDB. Incorporated login authentication, state management, routing, and customized viewing / editing permissions
+                    for different users. Ensured responsive display and connection to external movie database API.
+
+                </p>
+                <div class="mainImg">
+                    <img src="images/movie1.png">
+                </div>
+                <div class="extraImg">
+                    <!-- <img src="images/movie1.png"> -->
+                    <img src="images/movie2.png">
+                    <img src="images/movie3.png">
+                    <img src="images/movie4.png">
+                    <img src="images/movie5.png">
+                    <img src="images/movie6.png">
+                    <!-- <img src="images/movie7.png"> -->
+                    <!-- <img src="images/movie8.png"> -->
                 </div>
             </div>
         </div>

@@ -397,7 +397,9 @@ nav:hover a {
 .bg-modal-bug,
 .bg-modal-chat,
 .bg-modal-pet,
-.bg-modal-router {
+.bg-modal-router,
+.bg-modal-myAtlas,
+.bg-modal-movie {
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0, 0.7);
@@ -416,7 +418,9 @@ nav:hover a {
 .modal-content-bug,
 .modal-content-chat,
 .modal-content-pet,
-.modal-content-router {
+.modal-content-router,
+.modal-content-myAtlas,
+.modal-content-movie {
     width: 40%;
     height: auto;
     background-color: white;
@@ -434,7 +438,9 @@ nav:hover a {
 .modal-content-bug h2,
 .modal-content-chat h2,
 .modal-content-pet h2,
-.modal-content-router h2 {
+.modal-content-router h2,
+.modal-content-myAtlas h2,
+.modal-content-movie h2 {
     padding-bottom: 40px;
 }
 
@@ -445,7 +451,9 @@ nav:hover a {
 .modal-content-bug p,
 .modal-content-chat p,
 .modal-content-pet p,
-.modal-content-router p {
+.modal-content-router p,
+.modal-content-myAtlas p,
+.modal-content-movie p {
     font-size: 20px;
     line-height: 1.6;
     padding-bottom: 40px;
@@ -458,7 +466,9 @@ nav:hover a {
 .closeBugs,
 .closeChat,
 .closePet,
-.closeRouter {
+.closeRouter,
+.closeMyAtlas,
+.closeMovie {
     position: absolute;
     top: 0;
     right: 14px;
@@ -474,7 +484,9 @@ nav:hover a {
 .closeBugs:hover,
 .closeChat:hover,
 .closePet:hover,
-.closeRouter:hover {
+.closeRouter:hover,
+.closeMyAtlas:hover,
+.closeMovie:hover {
     color: rgb(250, 206, 237);
 }
 
@@ -693,7 +705,9 @@ nav:hover a {
     div.modal-content-bug,
     div.modal-content-chat,
     div.modal-content-pet,
-    div.modal-content-router {
+    div.modal-content-router,
+    div.modal-content-myAtlas,
+    div.modal-content-movie {
         overflow-y: auto;
         max-height: calc(100vh - 125px);
     }
@@ -785,7 +799,9 @@ nav:hover a {
     .modal-content-bug,
     .modal-content-chat,
     .modal-content-pet,
-    .model-content-router {
+    .model-content-router,
+    .model-content-myAtlas,
+    .model-content-movie {
         width: 60%;
     }
 }
@@ -812,7 +828,9 @@ nav:hover a {
     .modal-content-bug,
     .modal-content-chat,
     .modal-content-pet,
-    .modal-content-router {
+    .modal-content-router,
+    .model-content-myAtlas,
+    .model-content-movie {
         width: 80%;
     }
 }
@@ -913,7 +931,9 @@ nav:hover a {
     div.modal-content-bug,
     div.modal-content-chat,
     div.modal-content-pet,
-    div.modal-content-router {
+    div.modal-content-router,
+    div.modal-content-myAtlas,
+    div.modal-content-movie {
         overflow-y: auto;
         max-height: calc(100vh - 125px);
     }

@@ -93,6 +93,25 @@ function closeRouter() {
     document.querySelector('.bg-modal-router').style.display = 'none';
 }
 
+/* My Atlas */
+function displayMyAtlas() {
+    document.querySelector('.bg-modal-myAtlas').style.display = 'flex';
+}
+
+function closeMyAtlas() {
+    document.querySelector(".bg-modal-myAtlas").style.display = "none";
+}
+
+/* CineScope */
+function displayMovie() {
+    document.querySelector('.bg-modal-movie').style.display = 'flex';
+}
+
+function closeMovie() {
+    document.querySelector(".bg-modal-movie").style.display = "none";
+}
+
+
 /*GALLERY*/
 
 var slideIndex = 0;
